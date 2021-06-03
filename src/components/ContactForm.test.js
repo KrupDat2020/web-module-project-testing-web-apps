@@ -12,7 +12,9 @@ test("renders the contact form header", () => {
   render(<ContactForm />);
 });
 
-test("renders ONE error message if user enters less then 5 characters into firstname.", async () => {});
+test("renders ONE error message if user enters less then 5 characters into firstname.", async () => {
+    expect(itemstoHaveLength >= 5));
+});
 
 test("renders THREE error messages if user enters no values into any fields.", async () => {});
 
